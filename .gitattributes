@@ -1,2 +1,7 @@
 * text=auto eol=lf
 *.zip binary
+
+# Preserve recorded evaluation responses, including Markdown hard-break spaces.
+evals/runs/audit-50-1.2.0/cases/*/*.txt -whitespace
+evals/runs/audit-50-1.2.0/reviews/*/*.txt -whitespace
+evals/runs/audit-50-1.2.0/excluded-attempts/*/*.txt -whitespace

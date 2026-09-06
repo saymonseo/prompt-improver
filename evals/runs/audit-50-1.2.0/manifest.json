@@ -1,0 +1,16 @@
+{
+  "version": "1.2.0",
+  "source_commit": "cfe13dfbac35821d7fb38caeefab717f9f889756",
+  "source_sha256": "b8e0c5d9a755ae1069203eff67ae5803bc95bfcbadba0d8c595f53228fb21952",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "cli_version": "0.153.4",
+  "configuration": "Inherited local CLI model settings; no model or reasoning overrides.",
+  "design": "50 synthetic topics; 40 three-response briefings and 10 five-response briefings; 50 independent downstream executions; two independent grading passes.",
+  "context": "Each CLI call is ephemeral. Later briefing turns receive only the exact prior user/assistant text for that case. Full portable specification is inline; no future persona facts or grading criteria are passed to improvers.",
+  "scope": "Text outputs; no purchases, messages, deployment or physical operations. Live web is available when factual verification is needed. Closed supplied materials take precedence.",
+  "timing": "Fixtures and topic-specific checks fixed before all runs. Shared scoring rubric saved before judging the three pilot cases and before starting the remaining 47 cases. No skill edits during audit.",
+  "skills_tested": "Portable SPECIFICATION.md only in automated behavioral runs; modular routing assessed separately by static reviewer.",
+  "cases": 50,
+  "extended_cases": 10
+}

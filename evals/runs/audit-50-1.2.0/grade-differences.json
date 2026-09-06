@@ -1,0 +1,127 @@
+[
+  {
+    "id": "13",
+    "differences": {
+      "prompt_scores": {
+        "uncertainty": [
+          1,
+          2
+        ]
+      },
+      "answer_scores": {
+        "grounding": [
+          1,
+          2
+        ]
+      },
+      "finding_profiles_A_B": [
+        [
+          {
+            "severity": "minor",
+            "layer": "answer",
+            "quote": "ободы — металлические края колёс"
+          },
+          {
+            "severity": "minor",
+            "layer": "prompt",
+            "quote": "Фактический осмотр велосипеда не проводился."
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "id": "18",
+    "differences": {
+      "finding_profiles_A_B": [
+        [
+          {
+            "severity": "minor",
+            "layer": "prompt",
+            "quote": "Отдельно предусмотрись возможность отмечать задержки после работы."
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "id": "34",
+    "differences": {
+      "finding_profiles_A_B": [
+        [
+          {
+            "severity": "minor",
+            "layer": "prompt",
+            "quote": "предусмотрись возможность"
+          }
+        ],
+        []
+      ]
+    }
+  },
+  {
+    "id": "39",
+    "differences": {
+      "finding_profiles_A_B": [
+        [
+          {
+            "severity": "minor",
+            "layer": "answer",
+            "quote": "Приношу извинения за задержку заказа и доставленные неудобства."
+          }
+        ],
+        [
+          {
+            "severity": "major",
+            "layer": "answer",
+            "quote": "Приношу извинения за задержку заказа и доставленные неудобства."
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "id": "46",
+    "differences": {
+      "finding_profiles_A_B": [
+        [
+          {
+            "severity": "minor",
+            "layer": "harness",
+            "quote": "Робот просит помощи"
+          }
+        ],
+        [
+          {
+            "severity": "major",
+            "layer": "harness",
+            "quote": "Робот просит помощи"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "id": "48",
+    "differences": {
+      "answer_scores": {
+        "grounding": [
+          1,
+          2
+        ]
+      },
+      "finding_profiles_A_B": [
+        [
+          {
+            "severity": "minor",
+            "layer": "answer",
+            "quote": "сопоставление ещё не проводилось."
+          }
+        ],
+        []
+      ]
+    }
+  }
+]

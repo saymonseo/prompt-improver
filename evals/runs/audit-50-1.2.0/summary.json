@@ -1,0 +1,24 @@
+{
+  "graded_topics": 50,
+  "prompt_mean": 9.95,
+  "answer_mean": 9.96,
+  "prompt_exact_agreement": 49,
+  "answer_exact_agreement": 48,
+  "critical_flagged_cases": [],
+  "major_flagged_cases": [
+    "28",
+    "39",
+    "46"
+  ],
+  "any_flagged_cases": [
+    "09",
+    "13",
+    "18",
+    "28",
+    "34",
+    "39",
+    "46",
+    "48"
+  ],
+  "dialogue_flags": []
+}

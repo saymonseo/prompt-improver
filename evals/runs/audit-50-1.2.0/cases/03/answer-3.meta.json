@@ -1,0 +1,16 @@
+{
+  "started_utc": "2026-09-06T19:02:16.517522+00:00",
+  "seconds": 31.94,
+  "returncode": 0,
+  "success": true,
+  "usage": {
+    "input_tokens": 30334,
+    "cached_input_tokens": 12544,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 634,
+    "reasoning_output_tokens": 368
+  },
+  "tool_item_types": [],
+  "input_sha256": "c569e49c0fc1963f0b4682132394a327203f371decd6009ede947d641388a772",
+  "output_sha256": "af54f66fccf54684cc6c619711c4652a7692d809544c1672a2219caf02d55824"
+}

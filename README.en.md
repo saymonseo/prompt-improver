@@ -4,7 +4,7 @@
 
 [Русский](README.md) · **English**
 
-[![Version 1.2.0](https://img.shields.io/badge/version-1.2.0-173F46)](project.json) [![Markdown](https://img.shields.io/badge/format-Markdown-53616B)](skill/prompt-improver/SKILL.md) [![18-topic audit](https://img.shields.io/badge/evaluation-18%20topics-173F46)](evals/AUDIT-2026-09-06.md)
+[![Version 1.2.0](https://img.shields.io/badge/version-1.2.0-173F46)](project.json) [![Markdown](https://img.shields.io/badge/format-Markdown-53616B)](skill/prompt-improver/SKILL.md) [![50-topic audit](https://img.shields.io/badge/evaluation-50%20topics-173F46)](evals/AUDIT-50-2026-09-06.md)
 
 The skill and portable specification are written in Russian. Their instructions ask the model to use the user's language. This English page documents usage; comparable performance in English or across different models has not been established.
 
@@ -66,6 +66,8 @@ The instructions distinguish user reports, sourced facts, calculations, hypothes
 These are behavioral instructions, not a guarantee of factual accuracy.
 
 ## Evaluation
+
+The [50-topic audit of version 1.2.0](evals/AUDIT-50-2026-09-06.md) publishes 50 scripted briefings, 50 final prompts, 50 downstream responses, and two model grading passes for every case. Arithmetic, selected code, schedules, JSON, and evidence quotes were checked separately. The report distinguishes observed skill defects, execution results, and a corrected test fixture. These are controlled text scenarios in one model configuration; the executor wrapper also supplies some constraints, and there is no no-skill control group.
 
 The [1.2.0 evaluation](evals/UPGRADE-1.2.0.md) records eight fresh skill scenarios and four additional executions of the resulting prompts. All passed the selected checks. Inputs, complete responses, expected values, and a JSON verification script are published. The primary development agent assessed the skill responses; there was no independent review or comparison across models in this update.
 

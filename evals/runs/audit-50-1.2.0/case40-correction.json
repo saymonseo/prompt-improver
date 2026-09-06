@@ -1,0 +1,11 @@
+{
+  "case": "40",
+  "layer": "harness",
+  "reason": "The original last user turn explicitly asked the next model to prepare another prompt, while the planned check expected the category itself. That original trial cannot measure the intended classifier execution.",
+  "changed": "Only the final user turn was clarified. The same first four exchanges, same frozen specification, and same checks were retained.",
+  "original_preserved": "excluded-attempts/40",
+  "selected_trial": "cases/40",
+  "additional_improver_calls": 1,
+  "additional_executor_calls": 1,
+  "grading": "Both reviewers receive the corrected usable trial, without the original response or explanation of the suspected error. Original artifacts are published separately."
+}

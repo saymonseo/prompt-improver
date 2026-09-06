@@ -1,0 +1,160 @@
+{
+  "assessor": "Primary development agent; no human expert calibration. Raw scores and reviews are unchanged.",
+  "findings": [
+    {
+      "id": "A-02-30-09-19-29/09/1",
+      "case": "09",
+      "reviewer": "A",
+      "raw_severity": "minor",
+      "layer": "prompt",
+      "quote": "предусмотрись проверку этих различий",
+      "decision": "confirmed",
+      "primary_severity": "minor",
+      "note": "Грамматическая опечатка присутствует; смысл сохранён. В исходной спецификации такой формы нет."
+    },
+    {
+      "id": "A-18-16-15-13-24/18/1",
+      "case": "18",
+      "reviewer": "A",
+      "raw_severity": "minor",
+      "layer": "prompt",
+      "quote": "Отдельно предусмотрись возможность отмечать задержки после работы.",
+      "decision": "confirmed",
+      "primary_severity": "minor",
+      "note": "Грамматическая опечатка присутствует; смысл сохранён. В исходной спецификации такой формы нет."
+    },
+    {
+      "id": "A-18-16-15-13-24/13/1",
+      "case": "13",
+      "reviewer": "A",
+      "raw_severity": "minor",
+      "layer": "prompt",
+      "quote": "Фактический осмотр велосипеда не проводился.",
+      "decision": "qualified",
+      "primary_severity": "minor",
+      "note": "Фраза о непроведённом осмотре может описывать действия текущего текстового помощника, но без явного ограничения шире данных пользователя. Предпочтительно: результаты осмотра не предоставлены. Существенного ложного заключения о состоянии велосипеда не установлено."
+    },
+    {
+      "id": "A-18-16-15-13-24/13/2",
+      "case": "13",
+      "reviewer": "A",
+      "raw_severity": "minor",
+      "layer": "answer",
+      "quote": "ободы — металлические края колёс",
+      "decision": "confirmed",
+      "primary_severity": "minor",
+      "note": "Вход не задаёт материал ободов. Нейтральное пояснение детали не должно добавлять эту характеристику; промпт уже запрещал придумывать параметры компонентов."
+    },
+    {
+      "id": "A-28-42-33-17-05/28/1",
+      "case": "28",
+      "reviewer": "A",
+      "raw_severity": "major",
+      "layer": "prompt",
+      "quote": "Включи в ответ три части:",
+      "decision": "confirmed",
+      "primary_severity": "major",
+      "note": "Обязательный предел 500 слов отсутствует. Обёртка исполнителя повторяет его, поэтому подходящая длина ответа не проверяет переносимость ограничения."
+    },
+    {
+      "id": "A-45-34-20-10-14/34/1",
+      "case": "34",
+      "reviewer": "A",
+      "raw_severity": "minor",
+      "layer": "prompt",
+      "quote": "предусмотрись возможность",
+      "decision": "confirmed",
+      "primary_severity": "minor",
+      "note": "Грамматическая опечатка присутствует; смысл сохранён. В исходной спецификации такой формы нет."
+    },
+    {
+      "id": "A-48-08-39-46-21/48/1",
+      "case": "48",
+      "reviewer": "A",
+      "raw_severity": "minor",
+      "layer": "answer",
+      "quote": "сопоставление ещё не проводилось.",
+      "decision": "qualified",
+      "primary_severity": "minor",
+      "note": "Фраза о непроведённом сопоставлении без указания субъекта и объёма шире данных. Следует различать собственные действия помощника и неизвестную историю семейной работы."
+    },
+    {
+      "id": "A-48-08-39-46-21/39/1",
+      "case": "39",
+      "reviewer": "A",
+      "raw_severity": "minor",
+      "layer": "answer",
+      "quote": "Приношу извинения за задержку заказа и доставленные неудобства.",
+      "decision": "criterion_boundary",
+      "primary_severity": "minor",
+      "note": "Буквальный тест отсутствия двух дней в письме не пройден; оба оценщика дали 9/10, но расходятся в серьёзности. Пользователь и финальный промпт не требовали обязательно повторить число в письме. Не подтверждена существенная ошибка пользовательского задания; сам промпт число сохраняет."
+    },
+    {
+      "id": "A-48-08-39-46-21/46/1",
+      "case": "46",
+      "reviewer": "A",
+      "raw_severity": "minor",
+      "layer": "harness",
+      "quote": "Робот просит помощи",
+      "decision": "harness_issue",
+      "primary_severity": "minor",
+      "note": "Критерий о роботе устарел после явной замены героя. Промпт и рассказ сохраняют кораблик и просьбу о помощи. Не является дефектом скилла, исходные критерий и оценки сохранены."
+    },
+    {
+      "id": "B-09-30-41-26-39/09/1",
+      "case": "09",
+      "reviewer": "B",
+      "raw_severity": "minor",
+      "layer": "prompt",
+      "quote": "предусмотрись проверку этих различий",
+      "decision": "confirmed",
+      "primary_severity": "minor",
+      "note": "Грамматическая опечатка присутствует; смысл сохранён. В исходной спецификации такой формы нет."
+    },
+    {
+      "id": "B-09-30-41-26-39/39/1",
+      "case": "39",
+      "reviewer": "B",
+      "raw_severity": "major",
+      "layer": "answer",
+      "quote": "Приношу извинения за задержку заказа и доставленные неудобства.",
+      "decision": "criterion_boundary",
+      "primary_severity": "minor",
+      "note": "Буквальный тест отсутствия двух дней в письме не пройден; оба оценщика дали 9/10, но расходятся в серьёзности. Пользователь и финальный промпт не требовали обязательно повторить число в письме. Не подтверждена существенная ошибка пользовательского задания; сам промпт число сохраняет."
+    },
+    {
+      "id": "B-29-33-46-24-36/46/1",
+      "case": "46",
+      "reviewer": "B",
+      "raw_severity": "major",
+      "layer": "harness",
+      "quote": "Робот просит помощи",
+      "decision": "harness_issue",
+      "primary_severity": "minor",
+      "note": "Критерий о роботе устарел после явной замены героя. Промпт и рассказ сохраняют кораблик и просьбу о помощи. Не является дефектом скилла, исходные критерий и оценки сохранены."
+    },
+    {
+      "id": "B-45-21-34-28-20/28/1",
+      "case": "28",
+      "reviewer": "B",
+      "raw_severity": "major",
+      "layer": "prompt",
+      "quote": "Включи в ответ три части:",
+      "decision": "confirmed",
+      "primary_severity": "major",
+      "note": "Обязательный предел 500 слов отсутствует. Обёртка исполнителя повторяет его, поэтому подходящая длина ответа не проверяет переносимость ограничения."
+    }
+  ],
+  "confirmed_major_skill_cases": [
+    "28"
+  ],
+  "confirmed_critical_cases": [],
+  "supplemental_harness_notes": [
+    "Case 40 original final user turn asked for another prompt. Corrected final and execution selected; original retained as excluded attempt. See case40-correction.json.",
+    "Case 46 robot criterion conflicts with the last user correction. The actual paper-boat story follows that correction; literal robot criterion is inapplicable.",
+    "Repeated dialogue criteria in specific_checks are retained as supplemental explanations, not counted twice.",
+    "Natural-language evidence locations such as execution, section name resolve to their explicit file prefix; original locations and exact quotes are preserved."
+  ],
+  "follow_up_source_checks": "The primary agent later checked three dog-training sources. This supplements, without rewriting, the reviewers' recorded limits; see source-checks.json.",
+  "grade_disagreements_file": "grade-differences.json"
+}
