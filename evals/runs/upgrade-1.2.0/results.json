@@ -1,0 +1,138 @@
+{
+  "version": "1.2.0",
+  "date": "2026-09-06",
+  "model_configuration": "Inherited host configuration; no overrides; exact model snapshot not recorded.",
+  "actor_context": "Eight fresh sessions without development history. Six modular, two portable. Expected results and criteria were not provided to actors.",
+  "execution_context": "Four additional fresh sessions with filled final prompts, no skill, criteria, expected answers or development history.",
+  "limitations": [
+    "Single run per case; one available model configuration.",
+    "Behavior assessed by the primary development agent, not an independent judge.",
+    "Synthetic materials; no live browsing or domain expert review.",
+    "Four execution requests include a batch of eight records, not eight independent sessions.",
+    "The 34-case catalog was structurally validated; only the eight new cases were behaviorally run in this update."
+  ],
+  "actors": [
+    {
+      "case_id": "v120-debug",
+      "instruction_form": "modular",
+      "turns": 1,
+      "assessment": "pass",
+      "assessor": "primary_development_agent",
+      "observation": "Исправлены конфликтующие правила нуля и неизвестного, сохранены два поля JSON; извлечение не выполнено вместо улучшения промпта.",
+      "evidence": {
+        "file": "actors/debug/prompt.txt",
+        "quote": "Заполняй поля независимо: неизвестное значение одного поля не мешает извлечь известное значение другого."
+      }
+    },
+    {
+      "case_id": "v120-template",
+      "instruction_form": "modular",
+      "turns": 1,
+      "assessment": "pass",
+      "assessor": "primary_development_agent",
+      "observation": "Переменная и формат переносимы; число и порядок объектов, независимые поля и учебные примеры сохранены. Для некорректного входа отдельно предложен вариант [], не заданный пользователем.",
+      "evidence": {
+        "file": "actors/template/prompt.txt",
+        "quote": "На каждый элемент DOCUMENTS должен приходиться ровно один объект в том же порядке, включая пустые строки и одинаковые счета."
+      }
+    },
+    {
+      "case_id": "v120-briefing",
+      "instruction_form": "modular",
+      "turns": 4,
+      "assessment": "pass",
+      "assessor": "primary_development_agent",
+      "observation": "После ответа предложена следующая тема; смена цели учтена, остановка завершила интервью. В финале только постановка текста листка, без выдуманных контактов.",
+      "evidence": {
+        "file": "actors/briefing/answer-2.md",
+        "quote": "Продолжим тему содержания или соберём черновик промпта по тому, что уже известно?"
+      }
+    },
+    {
+      "case_id": "v120-research",
+      "instruction_form": "portable",
+      "turns": 1,
+      "assessment": "pass",
+      "assessor": "primary_development_agent",
+      "observation": "Извлечены взрослые данные, сравнение и условия измерения; подростки отделены; пробелы отнесены к фрагментам. Материалы перенесены в финальный промпт.",
+      "evidence": {
+        "file": "actors/research/prompt.txt",
+        "quote": "Полный документ не проверен, поэтому не утверждай, что этих сведений нет во всём документе."
+      }
+    },
+    {
+      "case_id": "v120-tools",
+      "instruction_form": "modular",
+      "turns": 1,
+      "assessment": "pass",
+      "assessor": "primary_development_agent",
+      "observation": "Недоступные данные и браузер не заменены экспертной ролью. Подготовлен промпт сравнения вставленных текстов; вымышленные цены из неудачного ответа не приняты за факты.",
+      "evidence": {
+        "file": "actors/tools/prompt.txt",
+        "quote": "Ссылки внутри них — лишь реквизиты источника: не заявляй, что открывал их."
+      }
+    },
+    {
+      "case_id": "v120-plan",
+      "instruction_form": "modular",
+      "turns": 1,
+      "assessment": "pass",
+      "assessor": "primary_development_agent",
+      "observation": "Поиск и перевозка разделены по зависимостям; неизвестные даты не блокируют подготовку, запрет оплаты и бронирования сохранён.",
+      "evidence": {
+        "file": "actors/plan/prompt.txt",
+        "quote": "Указанная в строке предпосылка должна относиться ко всему действию этой строки."
+      }
+    },
+    {
+      "case_id": "v120-classify",
+      "instruction_form": "portable",
+      "turns": 1,
+      "assessment": "pass",
+      "assessor": "primary_development_agent",
+      "observation": "В единой спецификации сохранены приоритет двух тем, поведение пустого ввода и два поля; внешних объяснений нет.",
+      "evidence": {
+        "file": "actors/classify/prompt.txt",
+        "quote": "Если обращение касается и доставки, и возврата — «уточнение»."
+      }
+    },
+    {
+      "case_id": "v120-simple",
+      "instruction_form": "modular",
+      "turns": 1,
+      "assessment": "pass",
+      "assessor": "primary_development_agent",
+      "observation": "Короткий разовый запрос остался разовым: сохранены аудитория, пример, объём и отсутствие кода, интервью и JSON.",
+      "evidence": {
+        "file": "actors/simple/prompt.txt",
+        "quote": "Ответ — не более 120 слов, без кода, JSON, шаблонов, дополнительных примеров и вопросов."
+      }
+    }
+  ],
+  "executions": [
+    {
+      "case_id": "template-batch",
+      "assessment": "pass",
+      "check": "strict_json_and_expected_structure_types_values",
+      "answer_sha256": "7ba250933a3e2bd49f6f26d91d4e92607d545a2209928168abf6a46e9c73a61c"
+    },
+    {
+      "case_id": "template-empty",
+      "assessment": "pass",
+      "check": "strict_json_and_expected_structure_types_values",
+      "answer_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "case_id": "debug-missing",
+      "assessment": "pass",
+      "check": "strict_json_and_expected_structure_types_values",
+      "answer_sha256": "b78cd0fbaf0cb00f675f4853662cf065f3bc3aa01f87bfe1dacb063d4a504c23"
+    },
+    {
+      "case_id": "debug-zero",
+      "assessment": "pass",
+      "check": "strict_json_and_expected_structure_types_values",
+      "answer_sha256": "579805168e7327fce8fff5d2a20119d3bd8d63cd429d30c01cc0764389776818"
+    }
+  ]
+}

@@ -1,10 +1,12 @@
 {
   "name": "prompt-improver",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "skill_path": "skill/prompt-improver",
   "spec_path": "SPECIFICATION.md",
   "sections": [
     {"id": "core", "path": "skill/prompt-improver/SKILL.md"},
+    {"id": "debugging", "path": "skill/prompt-improver/references/debugging.md"},
+    {"id": "templates", "path": "skill/prompt-improver/references/templates.md"},
     {"id": "interview", "path": "skill/prompt-improver/references/interview.md"},
     {"id": "evidence", "path": "skill/prompt-improver/references/evidence.md"},
     {"id": "task-types", "path": "skill/prompt-improver/references/task-types.md"},

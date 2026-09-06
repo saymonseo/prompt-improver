@@ -1,0 +1,10 @@
+[
+{"seller":"Студия Кедр","amount":975.4,"currency":"EUR"},
+{"seller":"Мастерская Риф","amount":0,"currency":null},
+{"seller":null,"amount":null,"currency":"GBP"},
+{"seller":"Линия","amount":null,"currency":"USD"},
+{"seller":"ООО Куб","amount":2400,"currency":"RUB"},
+{"seller":null,"amount":null,"currency":null},
+{"seller":"Студия Кедр","amount":975.4,"currency":"EUR"},
+{"seller":"Возврат-Сервис","amount":-125,"currency":"RUB"}
+]

@@ -4,7 +4,7 @@
 
 [Русский](README.md) · **English**
 
-[![Version 1.1.1](https://img.shields.io/badge/version-1.1.1-173F46)](project.json) [![Markdown](https://img.shields.io/badge/format-Markdown-53616B)](skill/prompt-improver/SKILL.md) [![18-topic audit](https://img.shields.io/badge/evaluation-18%20topics-173F46)](evals/AUDIT-2026-09-06.md)
+[![Version 1.2.0](https://img.shields.io/badge/version-1.2.0-173F46)](project.json) [![Markdown](https://img.shields.io/badge/format-Markdown-53616B)](skill/prompt-improver/SKILL.md) [![18-topic audit](https://img.shields.io/badge/evaluation-18%20topics-173F46)](evals/AUDIT-2026-09-06.md)
 
 The skill and portable specification are written in Russian. Their instructions ask the model to use the user's language. This English page documents usage; comparable performance in English or across different models has not been established.
 
@@ -49,6 +49,12 @@ The specification includes all instruction modules. File support, browsing, and 
 
 ## What it supports
 
+**Repair a prompt from a failed response.** Provide the original prompt, actual response, and expected behavior. The skill separates instruction problems from missing data or tools, then prepares a focused revision and relevant checks.
+
+**Create a reusable template.** For recurring tasks, it separates stable instructions from input variables, defines missing-value handling and the output contract, and adds examples when useful. Proposed checks are distinguished from tests that were actually run.
+
+**Clarify a domain task.** Questions account for decisions that must be settled first. Research guidance checks whether the requested fields were extracted, and planning guidance checks that prerequisites apply to every action in a step.
+
 The project includes domain guidance for software, construction, and automotive tasks, plus a general profile for other fields. Task profiles cover research, calculations, planning, editing, teaching, and creative work.
 
 For example, an online-store briefing can establish the catalog size, product variants, delivery area, order workflow, content sources, hosting, and maintenance responsibilities. These details come from answers or verified context; the assistant must not invent them from “build a store.”
@@ -60,6 +66,8 @@ The instructions distinguish user reports, sourced facts, calculations, hypothes
 These are behavioral instructions, not a guarantee of factual accuracy.
 
 ## Evaluation
+
+The [1.2.0 evaluation](evals/UPGRADE-1.2.0.md) records eight fresh skill scenarios and four additional executions of the resulting prompts. All passed the selected checks. Inputs, complete responses, expected values, and a JSON verification script are published. The primary development agent assessed the skill responses; there was no independent review or comparison across models in this update.
 
 The [18-topic audit](evals/AUDIT-2026-09-06.md) publishes briefing records and final prompts. The [role comparison](evals/ROLE-AB-2026-09-06.md) contains 36 fresh executions with two independent model reviews of each pair. Both reviewers found no substantial difference in 17 pairs; they disagreed on the science review.
 

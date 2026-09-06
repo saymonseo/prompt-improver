@@ -8,6 +8,8 @@
 |---|---|
 | [SPECIFICATION.md](SPECIFICATION.md) | Сгенерированная единая инструкция для передачи модели |
 | [SKILL.md](skill/prompt-improver/SKILL.md) | Ядро и маршруты подключения подробных правил |
+| [Разбор промпта](skill/prompt-improver/references/debugging.md) | Исправление запроса по неудачному ответу |
+| [Шаблоны](skill/prompt-improver/references/templates.md) | Переменные, строгий формат и проверочные входы |
 | [Интервью](skill/prompt-improver/references/interview.md) | Выбор вопросов и переходы между темами |
 | [Доказательства](skill/prompt-improver/references/evidence.md) | Поиск, источники и неизвестное |
 | [Формат результата](skill/prompt-improver/references/output.md) | Состояние задачи и переносимый промпт |
