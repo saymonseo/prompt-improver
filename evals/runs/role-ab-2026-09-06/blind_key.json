@@ -1,0 +1,92 @@
+[
+  {
+    "case": "shop",
+    "X": "r001",
+    "Y": "r002"
+  },
+  {
+    "case": "construction",
+    "X": "r003",
+    "Y": "r004"
+  },
+  {
+    "case": "data",
+    "X": "r006",
+    "Y": "r005"
+  },
+  {
+    "case": "auto",
+    "X": "r008",
+    "Y": "r007"
+  },
+  {
+    "case": "move",
+    "X": "r009",
+    "Y": "r010"
+  },
+  {
+    "case": "language",
+    "X": "r011",
+    "Y": "r012"
+  },
+  {
+    "case": "resume",
+    "X": "r013",
+    "Y": "r014"
+  },
+  {
+    "case": "medical",
+    "X": "r015",
+    "Y": "r016"
+  },
+  {
+    "case": "budget",
+    "X": "r018",
+    "Y": "r017"
+  },
+  {
+    "case": "lease",
+    "X": "r020",
+    "Y": "r019"
+  },
+  {
+    "case": "travel",
+    "X": "r021",
+    "Y": "r022"
+  },
+  {
+    "case": "food",
+    "X": "r024",
+    "Y": "r023"
+  },
+  {
+    "case": "fitness",
+    "X": "r026",
+    "Y": "r025"
+  },
+  {
+    "case": "plants",
+    "X": "r027",
+    "Y": "r028"
+  },
+  {
+    "case": "event",
+    "X": "r030",
+    "Y": "r029"
+  },
+  {
+    "case": "relationship",
+    "X": "r031",
+    "Y": "r032"
+  },
+  {
+    "case": "creative",
+    "X": "r034",
+    "Y": "r033"
+  },
+  {
+    "case": "science",
+    "X": "r036",
+    "Y": "r035"
+  }
+]

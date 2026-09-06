@@ -1,0 +1,8 @@
+{
+  "web_calls": 4,
+  "sources": [
+    "https://www.nhs.uk/symptoms/headaches/",
+    "https://migrainetrust.org/live-with-migraine/self-management/keeping-a-migraine-diary/"
+  ],
+  "limitations": "Страницы NICE Recommendations, Diagnosis и Questions to ask вернули 403 при прямом открытии. Сведения NICE использованы из подробного текста поисковой выдачи, успешно полученного в первом вызове. NHS и The Migraine Trust открыты полностью. Индивидуальная срочность не оценена: сведения о симптомах и осмотр отсутствуют."
+}

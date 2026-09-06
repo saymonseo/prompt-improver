@@ -1,0 +1,10 @@
+{
+  "quote_scope": "Exact substring checks for review.evidence quotes; omission descriptions in issues require manual review.",
+  "input_pairs_checked": 18,
+  "answers_present": 36,
+  "reviewers_checked": 12,
+  "evidence_quotes_checked": 215,
+  "word_limit_violations": [],
+  "reported_tool_limit_violations": [],
+  "quote_mismatches": []
+}

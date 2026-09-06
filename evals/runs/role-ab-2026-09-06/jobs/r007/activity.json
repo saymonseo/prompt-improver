@@ -1,0 +1,9 @@
+{
+  "web_calls": 3,
+  "sources": [
+    "https://www.denso-am.eu/news/starter-troubleshooting",
+    "https://www.densoautoparts.com/reference-starter-troubleshooting/",
+    "https://www.hella.com/techworld/en/technical/sensors-and-actuators/test-coolant-temperature-sensor/"
+  ],
+  "limitations": "Марка, модель, точная конфигурация двигателя, история проблемы и результаты диагностики неизвестны. Использованы общие технические материалы производителей; нормы для конкретного автомобиля не установлены. Причина неисправности и безопасность поездки не определялись. Предметный код не исполнялся."
+}

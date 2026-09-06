@@ -1,0 +1,19 @@
+{
+  "method": "Parent reviewed raw quoted passages, independent arithmetic controls and reviewer disagreements after labels were revealed. Original answers and reviewer judgments remain unchanged.",
+  "cases": [
+    {
+      "case": "science",
+      "first_judge": "role",
+      "second_judge": "tie",
+      "observed_difference": "r035 includes adult SOL data from Höhn 2024; r036 explicitly says these data were not extracted. Both reviewers checked the added data against the primary table.",
+      "interpretation_difference": "The first judge treats added objective adult evidence as a substantial completeness advantage. The second sees useful coverage differences but no change to the main conclusion or resolution of missing main causal-effect size.",
+      "decision": "Keep disagreement; do not convert to a consensus role win. No third blinded judge or domain expert was used.",
+      "shared_limits": "Both responses explicitly leave some requested fields unextracted. Reviewer 1 flags content/task control; reviewer 2 flags paired effect in minutes and uncertainty for Schöllhorn. These are acknowledged completeness limits, not identified fabrication."
+    },
+    {
+      "case": "move",
+      "observed_difference": "Reviewer j12 notes one row in baseline r010 combines continued apartment viewings with later transport under a dependency on a signed lease and keys. The main plan separately gives the correct sequence. Reviewer j22 does not flag this row.",
+      "decision": "Preserve the first reviewer's minor local ambiguity and the second reviewer's lack of a finding. Both pair verdicts remain tie; no critical error or substantial pair advantage is inferred."
+    }
+  ]
+}

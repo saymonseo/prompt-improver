@@ -1,0 +1,377 @@
+{
+  "date": "2026-09-06",
+  "source_skill_version": "1.1.1",
+  "source_prompts_version": "1.1.0 audit, unchanged final prompts",
+  "base_commit": "adf5e49a13c26399b41a45243e9aa7ea7f0a9b6b",
+  "design": "18 paired first-response executions; one sample per condition; fresh independent agents; pure role sentence only",
+  "model": "inherited parent configuration; no override; exact snapshot and sampling parameters not exposed",
+  "tool_policy": "same capabilities, <=8 web calls; no subject code execution or external mutations; own artifact write only",
+  "scope": "downstream text response; not briefing quality, complete app delivery, cross-model or clinical validation",
+  "order_seed": 6092026,
+  "cases": [
+    {
+      "id": "shop",
+      "source_sha256": "2fe809d61e79d0bfaee5cf1424c4834a2ec1440e71c812b6c5c4ca3126888c68",
+      "baseline_sha256": "2fe809d61e79d0bfaee5cf1424c4834a2ec1440e71c812b6c5c4ca3126888c68",
+      "role_sentence": "При выполнении запроса используй профессиональную перспективу ведущего разработчика интернет-магазинов.",
+      "runs": [
+        {
+          "job_id": "r001",
+          "case": "shop",
+          "condition": "role",
+          "request_sha256": "3339afd856f4db4626ae15c6a5bd81c0a33a9c4a9da2fba7112893fc7ceaf01d"
+        },
+        {
+          "job_id": "r002",
+          "case": "shop",
+          "condition": "baseline",
+          "request_sha256": "70f2b46254f724b9b0ab33a901258c3f7246c0ec0332393f58014681949fab89"
+        }
+      ]
+    },
+    {
+      "id": "construction",
+      "source_sha256": "f9b2c65f40c4c3073e79e967957830d8cb79ec3445dcfb952a40eded8d5a3c14",
+      "baseline_sha256": "f9b2c65f40c4c3073e79e967957830d8cb79ec3445dcfb952a40eded8d5a3c14",
+      "role_sentence": "При выполнении запроса используй профессиональную перспективу архитектора частных жилых домов.",
+      "runs": [
+        {
+          "job_id": "r003",
+          "case": "construction",
+          "condition": "role",
+          "request_sha256": "25c20b204d30c83cce68f82276a253c21ab4997c4ff42ef321b9a009326aedff"
+        },
+        {
+          "job_id": "r004",
+          "case": "construction",
+          "condition": "baseline",
+          "request_sha256": "2600be658eb8a7e766b49b6ea49133dbe40a1be8eedfe69f7e599d37094597b3"
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "source_sha256": "f78bcf3e43bfa0e58d9d4ddd455d221b572eeebc3d0f02f2c0545bbd65451f91",
+      "baseline_sha256": "1c039dc000192d57d149bbc64408a4ea0c7d8e78f6694e917f48a4f4169e3b56",
+      "role_sentence": "При выполнении запроса используй профессиональную перспективу аналитика данных.",
+      "runs": [
+        {
+          "job_id": "r005",
+          "case": "data",
+          "condition": "baseline",
+          "request_sha256": "cee87574cc4911a1c67905131314072f52b71ee9c71babcef7025391a2901396"
+        },
+        {
+          "job_id": "r006",
+          "case": "data",
+          "condition": "role",
+          "request_sha256": "b035ce8e99a0047d6d6099407afdf072b9f11ac5e4ddb4bf6aab18987c9a1d93"
+        }
+      ]
+    },
+    {
+      "id": "auto",
+      "source_sha256": "04b4332a08f7276e8d57efdb2f2ba45e675b3b0b418191cadaa6fa65b51bbdbe",
+      "baseline_sha256": "04b4332a08f7276e8d57efdb2f2ba45e675b3b0b418191cadaa6fa65b51bbdbe",
+      "role_sentence": "При выполнении запроса используй профессиональную перспективу автомобильного диагноста.",
+      "runs": [
+        {
+          "job_id": "r007",
+          "case": "auto",
+          "condition": "role",
+          "request_sha256": "fd49a7c9672fe0c8ae935e5673bce0b7568dff2e51ba417c24b667687de54a6c"
+        },
+        {
+          "job_id": "r008",
+          "case": "auto",
+          "condition": "baseline",
+          "request_sha256": "ae13d52a7a9a402eb55a9e0a372859742a25ea0f6b67a61dc534b98efbfad211"
+        }
+      ]
+    },
+    {
+      "id": "move",
+      "source_sha256": "8bf8b1da4e524c0330d97ee7fcd223c84245248badc9acbf57827e146bb74d34",
+      "baseline_sha256": "8bf8b1da4e524c0330d97ee7fcd223c84245248badc9acbf57827e146bb74d34",
+      "role_sentence": "При выполнении запроса используй профессиональную перспективу организатора переездов.",
+      "runs": [
+        {
+          "job_id": "r009",
+          "case": "move",
+          "condition": "role",
+          "request_sha256": "454e8e754a5342eb913308848fa18b607f4086898316f236cb3638480778aef3"
+        },
+        {
+          "job_id": "r010",
+          "case": "move",
+          "condition": "baseline",
+          "request_sha256": "7563a9f962aaacbb68e4e8c02c0c2a0760569597f32f159c3a511674e3b5562e"
+        }
+      ]
+    },
+    {
+      "id": "language",
+      "source_sha256": "c10c158e3c5d136ec865d1abaf28964911c287ed0fc5c7ce8e91e576f9a95323",
+      "baseline_sha256": "c10c158e3c5d136ec865d1abaf28964911c287ed0fc5c7ce8e91e576f9a95323",
+      "role_sentence": "При выполнении запроса используй профессиональную перспективу преподавателя английского языка для профессионального общения.",
+      "runs": [
+        {
+          "job_id": "r011",
+          "case": "language",
+          "condition": "role",
+          "request_sha256": "d612ac9a55a7090d2f73c5a88013c7e77df06b600a02df59bce657cc17c4c6de"
+        },
+        {
+          "job_id": "r012",
+          "case": "language",
+          "condition": "baseline",
+          "request_sha256": "a725adea20b0702f33ea976191b8ec5dd5ba2d46db318c77c3efde86cdb8a8d0"
+        }
+      ]
+    },
+    {
+      "id": "resume",
+      "source_sha256": "25f7f1751341188a6119d9a5454bf2d719cc91779f6dd137b7f8ff3216878103",
+      "baseline_sha256": "25f7f1751341188a6119d9a5454bf2d719cc91779f6dd137b7f8ff3216878103",
+      "role_sentence": "При выполнении запроса используй профессиональную перспективу карьерного консультанта по переходу в аналитику данных.",
+      "runs": [
+        {
+          "job_id": "r013",
+          "case": "resume",
+          "condition": "role",
+          "request_sha256": "32249ac494ef047b871107afaf7d0e024774f5ab479b52abce3d36e9a636c124"
+        },
+        {
+          "job_id": "r014",
+          "case": "resume",
+          "condition": "baseline",
+          "request_sha256": "7144e534be92128f66600cac19e0318d4fc915c43a39a1043bdb5c7205b23eee"
+        }
+      ]
+    },
+    {
+      "id": "medical",
+      "source_sha256": "75d9f4913ae74b1e465adf24e3e4876032ff6238ba8f4b5d7b86d2395a25228b",
+      "baseline_sha256": "75d9f4913ae74b1e465adf24e3e4876032ff6238ba8f4b5d7b86d2395a25228b",
+      "role_sentence": "При выполнении запроса используй профессиональную перспективу врача общей практики.",
+      "runs": [
+        {
+          "job_id": "r015",
+          "case": "medical",
+          "condition": "role",
+          "request_sha256": "bdc2ebdf93203f6d64b0c825e088d19b07507ec91017680003a388e498889d16"
+        },
+        {
+          "job_id": "r016",
+          "case": "medical",
+          "condition": "baseline",
+          "request_sha256": "18f91e64eb95e3a1a098f1613d4e1fc26240c6e1217d84a99d8d1a9794748e61"
+        }
+      ]
+    },
+    {
+      "id": "budget",
+      "source_sha256": "5fe1fd6b78d3b98479c7334a2f78b8188a1b525dd4599db7a214859b6a5e1346",
+      "baseline_sha256": "5fe1fd6b78d3b98479c7334a2f78b8188a1b525dd4599db7a214859b6a5e1346",
+      "role_sentence": "При выполнении запроса используй профессиональную перспективу консультанта по личному бюджету.",
+      "runs": [
+        {
+          "job_id": "r017",
+          "case": "budget",
+          "condition": "role",
+          "request_sha256": "4f9c1d6747f59f79cac64d918972519a9a47979c4658e25f81455a419935d83a"
+        },
+        {
+          "job_id": "r018",
+          "case": "budget",
+          "condition": "baseline",
+          "request_sha256": "84e4b912208d58c659de61c5d35d414fbde3d00adede13beebad2a7c57de543f"
+        }
+      ]
+    },
+    {
+      "id": "lease",
+      "source_sha256": "e9e532a9c5e8141e23a6943f60c76a0cc8819eacda7de75a7361e6bde32e178c",
+      "baseline_sha256": "e9e532a9c5e8141e23a6943f60c76a0cc8819eacda7de75a7361e6bde32e178c",
+      "role_sentence": "При выполнении запроса используй профессиональную перспективу юриста по найму жилых помещений.",
+      "runs": [
+        {
+          "job_id": "r019",
+          "case": "lease",
+          "condition": "role",
+          "request_sha256": "c284b8a4f69c2a1b9a58bdfd891e53636443a55b747198d5df02e842f20610cc"
+        },
+        {
+          "job_id": "r020",
+          "case": "lease",
+          "condition": "baseline",
+          "request_sha256": "be212b285eec177801629ff826a7307a63bf1b9a31cdd97fc455f6e217936268"
+        }
+      ]
+    },
+    {
+      "id": "travel",
+      "source_sha256": "88afd7d7cd10d34557bce4c034ec427ffc31180c6a689c6d3813eec83290b3e0",
+      "baseline_sha256": "88afd7d7cd10d34557bce4c034ec427ffc31180c6a689c6d3813eec83290b3e0",
+      "role_sentence": "При выполнении запроса используй профессиональную перспективу планировщика самостоятельных путешествий.",
+      "runs": [
+        {
+          "job_id": "r021",
+          "case": "travel",
+          "condition": "baseline",
+          "request_sha256": "26ac04bbd73770c006e0da8ac6912cb3e327021c0b562e58b1826ac5b17c8a7a"
+        },
+        {
+          "job_id": "r022",
+          "case": "travel",
+          "condition": "role",
+          "request_sha256": "448b39c091ee434f00103843472ec50d1dcb022eed7820421260b49858cd46ed"
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "source_sha256": "3cc5a7cf4ed76131f0ec55d41867317582576e21e5b124b5eb546dfd8ffc8b73",
+      "baseline_sha256": "3cc5a7cf4ed76131f0ec55d41867317582576e21e5b124b5eb546dfd8ffc8b73",
+      "role_sentence": "При выполнении запроса используй профессиональную перспективу повара, составляющего домашние меню.",
+      "runs": [
+        {
+          "job_id": "r023",
+          "case": "food",
+          "condition": "role",
+          "request_sha256": "fbfa1798ee45107dea3145d0d5db28971e62c3e55e49cbc51cb2438716a28a63"
+        },
+        {
+          "job_id": "r024",
+          "case": "food",
+          "condition": "baseline",
+          "request_sha256": "c21a94a0b34597db9a1087f0f4a20d16232d208de41df8f0b6448927520dec30"
+        }
+      ]
+    },
+    {
+      "id": "fitness",
+      "source_sha256": "488a5bd85a318a4fbabfc583cd950426044533456896ed8e3579d3d7861fdf7f",
+      "baseline_sha256": "488a5bd85a318a4fbabfc583cd950426044533456896ed8e3579d3d7861fdf7f",
+      "role_sentence": "При выполнении запроса используй профессиональную перспективу тренера по формированию привычки к физической активности.",
+      "runs": [
+        {
+          "job_id": "r025",
+          "case": "fitness",
+          "condition": "baseline",
+          "request_sha256": "2e8c2be6df454dfe04c988d54df7c3dcc23313d2daa6a152807153a3a3c6a204"
+        },
+        {
+          "job_id": "r026",
+          "case": "fitness",
+          "condition": "role",
+          "request_sha256": "81dbc0737c2b25251a5cf5377887f0b703f2f4752e6d265896a0ced2d5e5901c"
+        }
+      ]
+    },
+    {
+      "id": "plants",
+      "source_sha256": "77153d6502022362f05a98ff046519c5e098ff7a6b7a092345d8f1327c95fad1",
+      "baseline_sha256": "77153d6502022362f05a98ff046519c5e098ff7a6b7a092345d8f1327c95fad1",
+      "role_sentence": "При выполнении запроса используй профессиональную перспективу специалиста по уходу за комнатными растениями.",
+      "runs": [
+        {
+          "job_id": "r027",
+          "case": "plants",
+          "condition": "role",
+          "request_sha256": "0d951dd26b00614018b3974164065d49960080556ae98e6557c9c793e24c1b16"
+        },
+        {
+          "job_id": "r028",
+          "case": "plants",
+          "condition": "baseline",
+          "request_sha256": "38d2ef9bfd91f354375fa8499eecd945a8fddd1c8f94b983ba178c81e51f7c92"
+        }
+      ]
+    },
+    {
+      "id": "event",
+      "source_sha256": "35e4479b1f5ccf2259cac2bd2a9e050c006d66454df2cb105d62f33d622cc024",
+      "baseline_sha256": "35e4479b1f5ccf2259cac2bd2a9e050c006d66454df2cb105d62f33d622cc024",
+      "role_sentence": "При выполнении запроса используй профессиональную перспективу организатора семейных мероприятий.",
+      "runs": [
+        {
+          "job_id": "r029",
+          "case": "event",
+          "condition": "role",
+          "request_sha256": "f6f4c6fa51a960e9a26f276b696f9a69398bbec4410eba7a0fb411ff32ffa909"
+        },
+        {
+          "job_id": "r030",
+          "case": "event",
+          "condition": "baseline",
+          "request_sha256": "a886c5bb80417ddc27c04c4ae824ab2580c25d28ebb3fa9df359b3167b64f6b4"
+        }
+      ]
+    },
+    {
+      "id": "relationship",
+      "source_sha256": "3447d2bf09d78e1a9ccf24945c655122cea054283195beac6f7244cf53c512ce",
+      "baseline_sha256": "3447d2bf09d78e1a9ccf24945c655122cea054283195beac6f7244cf53c512ce",
+      "role_sentence": "При выполнении запроса используй профессиональную перспективу специалиста по семейному консультированию.",
+      "runs": [
+        {
+          "job_id": "r031",
+          "case": "relationship",
+          "condition": "baseline",
+          "request_sha256": "48c85f0828936245d2c3aab076a31b14a34e28336cb984bdc0a946266a614ec4"
+        },
+        {
+          "job_id": "r032",
+          "case": "relationship",
+          "condition": "role",
+          "request_sha256": "6c0371cde9f89be47a922bb5a360185b488e6b9bc876a1d09eeffd644eaeea24"
+        }
+      ]
+    },
+    {
+      "id": "creative",
+      "source_sha256": "c77a63f7b69268cd20f0bda875dfc4e662676754c2c0ae6821c3a1e580ab28ba",
+      "baseline_sha256": "c77a63f7b69268cd20f0bda875dfc4e662676754c2c0ae6821c3a1e580ab28ba",
+      "role_sentence": "При выполнении запроса используй профессиональную перспективу писателя-фантаста.",
+      "runs": [
+        {
+          "job_id": "r033",
+          "case": "creative",
+          "condition": "baseline",
+          "request_sha256": "a142872fec8b60148099dccc50f811a856a67917999de7c300c37a6bca557b9a"
+        },
+        {
+          "job_id": "r034",
+          "case": "creative",
+          "condition": "role",
+          "request_sha256": "d1526bb5c62b6bb166e85069565cb97de7be58bee8f675676cb5719b8a84630b"
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "source_sha256": "87e21d99f09eed7a9b5f14f42e4d855a3d347983691a41154729d34b607eced0",
+      "baseline_sha256": "87e21d99f09eed7a9b5f14f42e4d855a3d347983691a41154729d34b607eced0",
+      "role_sentence": "При выполнении запроса используй профессиональную перспективу исследователя физиологии сна.",
+      "runs": [
+        {
+          "job_id": "r035",
+          "case": "science",
+          "condition": "role",
+          "request_sha256": "1c7382cf374141d62b64641d856d913ecf780e699fec4139f128f4df6223bac3"
+        },
+        {
+          "job_id": "r036",
+          "case": "science",
+          "condition": "baseline",
+          "request_sha256": "0ad7b5b912f714dc64f74f93aaa787b7bd5f84ee247a0eb857fc2d7ede2461f7"
+        }
+      ]
+    }
+  ],
+  "hash_method": "SHA-256 of UTF-8 text with universal newlines normalized to LF, then encoded as UTF-8; no trimming. Applies to source, request and answer hashes.",
+  "completed_actor_runs": 36,
+  "completed_reviewers": 12,
+  "completed_pair_judgments": 36
+}

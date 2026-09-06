@@ -1,0 +1,16 @@
+{
+  "web_calls": 8,
+  "sources": [
+    "https://edelweiss-anapa.ru/prajs-list/",
+    "https://museumanapa.ru/",
+    "https://rasp.yandex.ru/train/anapa--kazan",
+    "https://museumanapa.ru/%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B/",
+    "https://museumanapa.ru/ticket_price/",
+    "https://ardo-hotel.ru/",
+    "https://rasp.yandex.ru/train/moscow--kazan",
+    "https://rasp.yandex.ru/train/kazan-kazan--moscow-kazanskaya",
+    "https://ardo-hotel.ru/prices",
+    "https://poezd012.ru/"
+  ],
+  "limitations": "Сайты pass.rzd.ru и ticket.rzd.ru не загрузились; наличие мест и тарифы перевозчика не подтверждены. Часть страниц Яндекс показала CAPTCHA или ошибку, сведения части расписаний получены из поисковой выдачи; конкретные рейсы на выбранные даты требуют проверки в РЖД. У жилья проверен опубликованный октябрьский тариф, но не свободный номер и окончательные условия. Отдельный октябрьский режим музеев и цены местных переездов не подтверждены. sources перечисляет успешно открытые содержательные страницы, без URL из одной лишь поисковой выдачи и без неудачных открытий. Предметный код и вычислительные инструменты не использовались."
+}

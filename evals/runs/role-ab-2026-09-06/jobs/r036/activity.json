@@ -1,0 +1,14 @@
+{
+  "web_calls": 8,
+  "sources": [
+    "https://gwern.net/doc/zeo/2021-duraccio.pdf",
+    "https://physoc.onlinelibrary.wiley.com/doi/abs/10.14814/phy2.13692",
+    "https://pubmed.ncbi.nlm.nih.gov/36854795/",
+    "https://pubmed.ncbi.nlm.nih.gov/27448477/",
+    "https://www.nature.com/articles/s42003-023-04598-4",
+    "https://pubmed.ncbi.nlm.nih.gov/27539026/",
+    "https://pubmed.ncbi.nlm.nih.gov/33867308/",
+    "https://pdfs.semanticscholar.org/8079/10a644a96e40bcc01ebe3895748ef4e09276.pdf"
+  ],
+  "limitations": "Ограниченный веб-поиск без выгрузок специализированных баз. Повторные CAPTCHA PMC, ошибки доступа Elsevier, MDPI и ряда PDF; для части исследований прочитаны только аннотации или первичные фрагменты из поиска. PDF Höhn открылся, но взрослые результаты SOL не извлечены. Не извлечены абсолютные эффекты и ДИ Schöllhorn; точный количественный результат подтверждён для Duraccio. Проверка исправлений/отзывов по DOI и доступным карточкам ограничена индексацией. Предметный код и вычисления кодом не выполнялись. В sources перечислены успешно открытые содержательные URL; недоступные попытки и страницы, полученные только поисковыми фрагментами, не включены."
+}

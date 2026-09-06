@@ -1,0 +1,10 @@
+{
+  "web_calls": 8,
+  "sources": [
+    "https://krd.ru/upload/iblock/3b1/kjrz03gdhmutjj6g23yr0fgab65pdzi3/1_3_35.pdf",
+    "https://admglaph.ru/news/rosreestr_informiruet/2026-04-10-1536",
+    "https://www.rameshki.ru/informatsija/upravlenie-rosreestra-po-tverskojj-oblasti/",
+    "https://www.labinskadmin.ru/gradostroitelnaya-deyatelnost/poluchit-uslugu-v-sfere-stroitelstva/27954-vydacha-gradostroitelnykh-planov-zemelnykh-uchastkov2"
+  ],
+  "limitations": "Кадастровый номер, адрес и муниципалитет не предоставлены, поэтому применимость местных требований не установлена. Ряд официальных страниц Госуслуг, pravo.gov.ru и Краснодара не загрузился. Доступный PDF Краснодара имеет незаполненные реквизиты принятия и не использован как подтверждение действующих требований. Конкретные отступы, согласования, уведомительный порядок и инженерные решения оставлены вопросами для проверки. В ответе использована официальная муниципальная публикация Краснодарского Роскадастра об ЕГРН; дополнительные открытые источники не используются для переноса правил других муниципалитетов на участок. Предметные расчёты и код не выполнялись."
+}

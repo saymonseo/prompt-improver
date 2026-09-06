@@ -1,0 +1,25 @@
+{
+  "web_calls": 8,
+  "sources": [
+    "https://www.advantshop.net/storefront/tariff",
+    "https://www.insales.ru/signup",
+    "https://tilda.cc/ru/pricing/",
+    "https://www.insales.ru/page/site-im",
+    "https://www.insales.ru/page/features",
+    "https://help-ru.tilda.cc/online-store/catalog",
+    "https://help-ru.tilda.cc/online-store/parameters",
+    "https://www.advantshop.net/help/pages/change-price",
+    "https://www.advantshop.net/help/pages/selfdelivery",
+    "https://www.insales.ru/collection/doc-delivery",
+    "https://help-ru.tilda.cc/online-store/shipping",
+    "https://help-ru.tilda.cc/online-store/cart",
+    "https://help-ru.tilda.cc/tilda-crm",
+    "https://www.insales.ru/collection/doc-chasto-zadavaemye-voprosy/product/kak-schitaetsya-kolichestvo-tovarov-v-magazine",
+    "https://www.insales.ru/page/obnovlenie-tarifov-insales-v-2026",
+    "https://www.advantshop.net/help/pages/cash-payment",
+    "https://help-ru.tilda.cc/online-store/payment-systems",
+    "https://www.insales.ru/Gai_d_po_sozdaniyu_IM_compressed.pdf",
+    "https://www.insales.ru/collection/doc-rabota-s-zakazami/product/sozdanie-zakaza"
+  ],
+  "limitations": "Проверка по публичным официальным страницам без входа в панели. Не подтверждены подсчёт вариантов в тарифных лимитах AdvantShop и Tilda, предел вариантов карточек, условия доступа к каталогу Tilda и сроки её поддержки/восстановления. Часть документации относится к прежним версиям интерфейса. Созданы только текстовые материалы; интерактивный прототип, магазин и фактические функциональные испытания не выполнялись."
+}

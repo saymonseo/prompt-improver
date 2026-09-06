@@ -1,0 +1,8 @@
+{
+  "web_calls": 2,
+  "sources": [
+    "https://www.cdc.gov/physical-activity-basics/guidelines/chronic-health-conditions-and-disabilities.html",
+    "https://www.nhs.uk/live-well/exercise/how-to-improve-strength-flexibility/"
+  ],
+  "limitations": "Сведения о здоровье и ограничениях отсутствуют. Персональные упражнения, интенсивность, паузы и увеличение нагрузки не назначены; распределение 20 минут приведено только как предварительный шаблон. Проверены открытые страницы CDC и NHS; в ответе использована относящаяся к персонализации рекомендация CDC."
+}

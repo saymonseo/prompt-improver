@@ -1,0 +1,8 @@
+{
+  "web_calls": 2,
+  "sources": [
+    "https://www.foodallergy.org/resources/how-read-food-label",
+    "https://www.foodallergy.org/resources/avoiding-cross-contact"
+  ],
+  "limitations": "Маркировка конкретных продуктов не проверялась. Время приготовления ориентировочное и зависит от плиты и указанного на упаковке времени варки. Суммарные количества сверены вручную; предметный код не выполнялся."
+}

@@ -1,0 +1,51 @@
+{
+  "method": "Ingredient amounts manually transcribed from saved answers, then summed with recipe repetitions; compared by parent to published shopping lists. No cooking or dietary validation.",
+  "totals": {
+    "r023": {
+      "oats_g": 360,
+      "milk_ml": 1300,
+      "apple_g": 900,
+      "curd_g": 600,
+      "eggs": 8,
+      "tomato_g": 600,
+      "cheese_g": 180,
+      "bread_g": 480,
+      "oil_ml": 70,
+      "salt_g": 12,
+      "lentil_g": 320,
+      "canned_tomato_g": 1600,
+      "carrot_g": 300,
+      "onion_g": 500,
+      "garlic_g": 24,
+      "paprika_g": 4,
+      "pasta_g": 320,
+      "beans_drained_g": 720,
+      "pepper_g": 1.5,
+      "buckwheat_g": 160,
+      "mushroom_g": 300,
+      "sourcream_g": 100
+    },
+    "r024": {
+      "oats_g": 360,
+      "milk_ml": 1400,
+      "apple_g": 900,
+      "cinnamon_g": 3,
+      "salt_g": 17,
+      "eggs": 12,
+      "tomato_g": 600,
+      "bread_g": 720,
+      "oil_ml": 95,
+      "pepper_g": 3.5,
+      "lentil_g": 320,
+      "carrot_g": 300,
+      "onion_g": 500,
+      "garlic_g": 25,
+      "canned_tomato_g": 2000,
+      "paprika_g": 6,
+      "pasta_g": 320,
+      "beans_drained_g": 480,
+      "oregano_g": 2,
+      "bellpepper_g": 200
+    }
+  }
+}

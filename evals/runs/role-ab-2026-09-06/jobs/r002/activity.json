@@ -1,0 +1,22 @@
+{
+  "web_calls": 8,
+  "sources": [
+    "https://www.insales.ru/signup",
+    "https://www.advantshop.net/storefront/tariff",
+    "https://woocommerce.com/document/variable-product/",
+    "https://www.advantshop.net/help/pages/change-price",
+    "https://woocommerce.com/pricing/",
+    "https://woocommerce.com/document/cash-on-delivery/",
+    "https://woocommerce.com/document/woocommerce-store-editing/customizing-cart-and-checkout/checkout-block/woocommerce-blocks-local-pickup/",
+    "https://www.insales.ru/collection/doc-payment/product/oplata-nalichnymi",
+    "https://www.insales.ru/collection/doc-delivery/product/samovyvoz-ne-trebuet-vvoda-adresa-dostavki",
+    "https://www.insales.ru/page/site-im",
+    "https://www.advantshop.net/help/pages/cash-payment",
+    "https://www.advantshop.net/help/pages/shipment-types",
+    "https://www.insales.ru/collection/doc-obschaya-informatsiya/product/sozdanie-novogo-tovara",
+    "https://www.insales.ru/collection/doc-rabota-s-zakazami/product/sozdanie-zakaza",
+    "https://www.insales.ru/collection/tovary/product/kak-nastroit-vybor-razmera-ili-vesa-pokupatelem-na-stranitse-tovara-v-magazine",
+    "https://www.insales.ru/collection/doc-delivery/product/dostavka-v-tochki-samovyvoza"
+  ],
+  "limitations": "Не подтверждён порядок учёта вариантов в товарных квотах inSales и AdvantShop. Удобство панелей оценено предварительно по документации. Интерактивный прототип, магазин и функциональные испытания не выполнялись; подготовлен текстовый этап. Реализация зависит от выбора платформы и реальных материалов пользователя. Некоторые инструкции AdvantShop относятся к указанным в них версиям 10.0 и 13.0; применимость настроек к выбранному тарифу предстоит проверить."
+}
