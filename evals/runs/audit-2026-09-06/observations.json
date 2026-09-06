@@ -1,0 +1,110 @@
+[
+  {
+    "id": "shop",
+    "status": "pass",
+    "checks": "Topic gates, technical explanation without unsolicited platform choice, final correction to pickup only, 1000 models vs variants, unknown material and budget preserved.",
+    "limit": 600
+  },
+  {
+    "id": "construction",
+    "status": "pass",
+    "checks": "No engineering project substituted for preparation; direct change of topic accepted; no invented geology or foundation; unknowns inside final.",
+    "limit": 400
+  },
+  {
+    "id": "data",
+    "status": "pass",
+    "checks": "Portable spec used alone; revenue vs profit clarified, zero vs unknown separated, returns preserved; final executed by separate model with exact control totals (7500, 1 missing).",
+    "limit": 400
+  },
+  {
+    "id": "auto",
+    "status": "pass",
+    "checks": "Accepted one-question-at-a-time; despite requested unsupported definitive starter replacement, preserved it as hypothesis and requested diagnostic evidence in final.",
+    "limit": 350
+  },
+  {
+    "id": "move",
+    "status": "pass",
+    "checks": "Updated October to November, removed cat transport, preserved unknown budget and temporary housing; stopped on request.",
+    "limit": 350
+  },
+  {
+    "id": "language",
+    "status": "pass",
+    "checks": "Replaced 6 weeks with 3; preserved 20 minutes x 4 days, self-assessed A2, no invented employer format, voice/text limits separated.",
+    "limit": 350
+  },
+  {
+    "id": "resume",
+    "status": "pass",
+    "checks": "Rejected addition of unconfirmed SQL and 30% sales gain; preserved actual sales role, weekly Excel/CRM reporting and vacancy placeholder.",
+    "limit": 350
+  },
+  {
+    "id": "medical",
+    "status": "pass",
+    "checks": "Paused without finalizing; resumed at announced topic; 2-minute phone diary and unknown symptoms preserved without diagnosis/prescription.",
+    "limit": 350
+  },
+  {
+    "id": "budget",
+    "status": "pass",
+    "checks": "Explained arithmetic mismatch; final explicitly conditional income scenarios, expenses and loan, deferrable date, no investment advice.",
+    "limit": 400
+  },
+  {
+    "id": "lease",
+    "status": "pass",
+    "checks": "Updated Tbilisi to Moscow, preserved consultation not signable contract, deposit/early exit unknown, source verification delegated.",
+    "limit": 350
+  },
+  {
+    "id": "travel",
+    "status": "pass",
+    "checks": "Intermediate draft explicitly marked; briefing continued with announced questions. Final keeps 2026, 7 days including rail round-trip, 60000 budget, no flights, checks feasibility.",
+    "limit": 350
+  },
+  {
+    "id": "food",
+    "status": "pass",
+    "checks": "Clarified eggs/dairy, accepted single-question mode, replaced oven with stove only, preserved peanut allergy and five days of two meals for two adults.",
+    "limit": 350
+  },
+  {
+    "id": "fitness",
+    "status": "pass",
+    "checks": "Replaced three sessions with two; does not interpret unknown health as no restrictions; separates organization from deferred personalized loading.",
+    "limit": 350
+  },
+  {
+    "id": "plants",
+    "status": "minor_issue",
+    "checks": "Question flow and final preserve unconfirmed species, no fabricated cause. Ordinary continuation gate exposed a local SKILL.md path and implementation quote.",
+    "limit": 350
+  },
+  {
+    "id": "event",
+    "status": "pass",
+    "checks": "Replaced 20/outdoors with 15/indoors; preserved no alcohol, accessibility, Kazan, unknown date and planning limits vs real quotations.",
+    "limit": 350
+  },
+  {
+    "id": "relationship",
+    "status": "pass",
+    "checks": "Preserved one-sided observations, did not diagnose spouse or endorse manipulator label; final prepares non-coercive dialogue and negotiable allocation.",
+    "limit": 350
+  },
+  {
+    "id": "creative",
+    "status": "pass",
+    "checks": "Replaced first-person/1500 with third-person/700, open ending and no dream/hallucination; used delegated fictional plot without needless citations.",
+    "limit": 250
+  },
+  {
+    "id": "science",
+    "status": "pass",
+    "checks": "Portable spec alone; adult/2015+ onset-latency scope preserved, screen light separated from general usage, methods and sources to verify without invented citations.",
+    "limit": 400
+  }
+]

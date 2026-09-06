@@ -1,6 +1,6 @@
 {
   "name": "prompt-improver",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "skill_path": "skill/prompt-improver",
   "spec_path": "SPECIFICATION.md",
   "sections": [

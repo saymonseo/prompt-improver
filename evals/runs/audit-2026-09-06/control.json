@@ -1,0 +1,21 @@
+{
+  "products": {
+    "Футболка": {
+      "known_revenue": 2400,
+      "missing_revenue": 0,
+      "rows": 3
+    },
+    "Брюки": {
+      "known_revenue": 3600,
+      "missing_revenue": 1,
+      "rows": 3
+    },
+    "Шапка": {
+      "known_revenue": 1500,
+      "missing_revenue": 0,
+      "rows": 2
+    }
+  },
+  "known_total": 7500,
+  "rows": 8
+}

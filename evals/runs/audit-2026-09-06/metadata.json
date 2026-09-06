@@ -1,0 +1,113 @@
+{
+  "date": "2026-09-06",
+  "baseline_version": "1.1.0",
+  "baseline_commit": "9565c5735634bdd082dd9dde8209e154ccce9a77",
+  "fixed_version": "1.1.1",
+  "model_snapshot": "not recorded; inherited runtime settings, no model override",
+  "main_dialogues": 18,
+  "topic_selection": "purposeful fictional scenarios, not a representative sample",
+  "tools": "read instructions and save logs; no browsing or subject execution during briefing",
+  "baseline_interfaces": {
+    "modular_skill": 16,
+    "portable_specification": 2
+  },
+  "independent_downstream_executions": 1,
+  "independent_handoff_reviews": 1,
+  "targeted_retest_dialogues": 2,
+  "public_log_local_path_redactions": 1,
+  "baseline_spec_sha256": "b9e927601c31261f84277d9a843ea084d90090ea175d7c09a93f1dccb167908d",
+  "fixed_spec_sha256": "624fda958a8f73a25f8617cf9c7d6495b6f71f2e7ddbf7c52d7359fb0e39c4d0",
+  "word_count_method": "whitespace-separated words in final prompt",
+  "prompts": [
+    {
+      "id": "shop",
+      "words": 487,
+      "limit": 600
+    },
+    {
+      "id": "construction",
+      "words": 323,
+      "limit": 400
+    },
+    {
+      "id": "data",
+      "words": 311,
+      "limit": 400
+    },
+    {
+      "id": "auto",
+      "words": 237,
+      "limit": 350
+    },
+    {
+      "id": "move",
+      "words": 273,
+      "limit": 350
+    },
+    {
+      "id": "language",
+      "words": 308,
+      "limit": 350
+    },
+    {
+      "id": "resume",
+      "words": 265,
+      "limit": 350
+    },
+    {
+      "id": "medical",
+      "words": 257,
+      "limit": 350
+    },
+    {
+      "id": "budget",
+      "words": 306,
+      "limit": 400
+    },
+    {
+      "id": "lease",
+      "words": 260,
+      "limit": 350
+    },
+    {
+      "id": "travel",
+      "words": 299,
+      "limit": 350
+    },
+    {
+      "id": "food",
+      "words": 269,
+      "limit": 350
+    },
+    {
+      "id": "fitness",
+      "words": 234,
+      "limit": 350
+    },
+    {
+      "id": "plants",
+      "words": 248,
+      "limit": 350
+    },
+    {
+      "id": "event",
+      "words": 293,
+      "limit": 350
+    },
+    {
+      "id": "relationship",
+      "words": 276,
+      "limit": 350
+    },
+    {
+      "id": "creative",
+      "words": 157,
+      "limit": 250
+    },
+    {
+      "id": "science",
+      "words": 374,
+      "limit": 400
+    }
+  ]
+}
