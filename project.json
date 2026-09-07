@@ -1,6 +1,6 @@
 {
   "name": "prompt-improver",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "skill_path": "skill/prompt-improver",
   "spec_path": "SPECIFICATION.md",
   "sections": [
@@ -11,6 +11,9 @@
     {"id": "evidence", "path": "skill/prompt-improver/references/evidence.md"},
     {"id": "task-types", "path": "skill/prompt-improver/references/task-types.md"},
     {"id": "output", "path": "skill/prompt-improver/references/output.md"},
+    {"id": "editing", "path": "skill/prompt-improver/references/editing.md"},
+    {"id": "execution", "path": "skill/prompt-improver/references/execution.md"},
+    {"id": "automation", "path": "skill/prompt-improver/references/domains/automation.md"},
     {"id": "software", "path": "skill/prompt-improver/references/domains/software.md"},
     {"id": "construction", "path": "skill/prompt-improver/references/domains/construction.md"},
     {"id": "automotive", "path": "skill/prompt-improver/references/domains/automotive.md"},

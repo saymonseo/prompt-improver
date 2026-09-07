@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "started_utc": "2026-09-07T09:00:55.767148+00:00",
+  "seconds": 44.64,
+  "returncode": 0,
+  "usage": {
+    "input_tokens": 62357,
+    "cached_input_tokens": 42496,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 895,
+    "reasoning_output_tokens": 167
+  },
+  "tool_types": [
+    "command_execution",
+    "command_execution",
+    "command_execution",
+    "command_execution",
+    "command_execution",
+    "command_execution"
+  ],
+  "read_commands_targeted_files": [
+    "candidate/prompt-improver/SKILL.md",
+    "candidate/prompt-improver/references/domains/software.md",
+    "candidate/prompt-improver/references/editing.md",
+    "candidate/prompt-improver/references/execution.md",
+    "candidate/prompt-improver/references/output.md",
+    "candidate/prompt-improver/references/task-types.md"
+  ],
+  "original_input_sha256": "8980c298fab08d289898e38cb1d177c953300cc23a424d5a272bf5e7c0dd2338",
+  "original_output_sha256": "6d211c86d0ff6c78db0d137cac718b8ff764f5afcb7ff35b792034b578ad7051",
+  "public_input_sha256": "a9250b713316e31efb550ef920ae64706709e2059a7b6501f091b8c8778c9eda",
+  "public_output_sha256": "6d211c86d0ff6c78db0d137cac718b8ff764f5afcb7ff35b792034b578ad7051"
+}

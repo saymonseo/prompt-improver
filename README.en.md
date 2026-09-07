@@ -4,7 +4,7 @@
 
 [Русский](README.md) · **English**
 
-[![Version 1.2.0](https://img.shields.io/badge/version-1.2.0-173F46)](project.json) [![Markdown](https://img.shields.io/badge/format-Markdown-53616B)](skill/prompt-improver/SKILL.md) [![50-topic audit](https://img.shields.io/badge/evaluation-50%20topics-173F46)](evals/AUDIT-50-2026-09-06.md)
+[![Version 1.3.0](https://img.shields.io/badge/version-1.3.0-173F46)](project.json) [![Markdown](https://img.shields.io/badge/format-Markdown-53616B)](skill/prompt-improver/SKILL.md) [![50-topic audit](https://img.shields.io/badge/evaluation-50%20topics-173F46)](evals/AUDIT-50-2026-09-06.md)
 
 The skill and portable specification are written in Russian. Their instructions ask the model to use the user's language. This English page documents usage; comparable performance in English or across different models has not been established.
 
@@ -49,6 +49,14 @@ The specification includes all instruction modules. File support, browsing, and 
 
 ## What it supports
 
+**Specify an edit.** Identify the source material, required change, properties to preserve, and how to compare the result. Missing attachments remain explicit handoff requirements.
+
+**Brief an agent with tools.** Connect the known starting state, required outcome, authorized actions, and evidence of completion. Preserve existing permissions within their stated scope.
+
+**Describe an automation.** Establish the triggering event, data, actions, and expected effect. Address relevant duplicates, missing fields, and partial failures without presenting a process diagram as a live integration.
+
+See the [1.3.0 capabilities](docs/FEATURES-1.3.0.md), including current decisions and checks that keep mandatory requirements inside the copyable prompt.
+
 **Repair a prompt from a failed response.** Provide the original prompt, actual response, and expected behavior. The skill separates instruction problems from missing data or tools, then prepares a focused revision and relevant checks.
 
 **Create a reusable template.** For recurring tasks, it separates stable instructions from input variables, defines missing-value handling and the output contract, and adds examples when useful. Proposed checks are distinguished from tests that were actually run.
@@ -66,6 +74,8 @@ The instructions distinguish user reports, sourced facts, calculations, hypothes
 These are behavioral instructions, not a guarantee of factual accuracy.
 
 ## Evaluation
+
+The [1.3.0 evaluation](evals/UPGRADE-1.3.0.md) covers nine cases on version 1.2.0 and two development revisions of 1.3.0, two four-turn briefings, six downstream text responses, and one execution in a local Python fixture: 42 model calls in total. The final revision passed the selected criteria in all nine cases. An omitted word limit in the first revision led to a focused correction; original responses are retained. This is development regression testing assessed by the primary agent, not an independent benchmark or a measured general accuracy improvement.
 
 The [50-topic audit of version 1.2.0](evals/AUDIT-50-2026-09-06.md) publishes 50 scripted briefings, 50 final prompts, 50 downstream responses, and two model grading passes for every case. Arithmetic, selected code, schedules, JSON, and evidence quotes were checked separately. The report distinguishes observed skill defects, execution results, and a corrected test fixture. These are controlled text scenarios in one model configuration; the executor wrapper also supplies some constraints, and there is no no-skill control group.
 
