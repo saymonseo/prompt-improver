@@ -1,4 +1,0 @@
-{
-  "sums.py": "def total(items):\n    return sum(items)\n",
-  "tests\\test_sums.py": "import unittest\nfrom sums import total\n\nclass TotalTests(unittest.TestCase):\n    def test_positive(self):\n        self.assertEqual(total([2, 3]), 5)\n\n    def test_negative(self):\n        self.assertEqual(total([-2, -3]), -5)\n\n    def test_zeros(self):\n        self.assertEqual(total([0, 0, 0]), 0)\n\n    def test_mixed(self):\n        self.assertEqual(total([4, 0, -7, 2]), -1)\n\n    def test_empty(self):\n        self.assertEqual(total([]), 0)\n\n    def test_input_unchanged(self):\n        items = [4, 0, -7, 2]\n        original = items.copy()\n\n        total(items)\n\n        self.assertEqual(items, original)\n"
-}
