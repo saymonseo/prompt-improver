@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parent
-def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
+def sha(path):return hashlib.sha256(path.read_bytes().replace(b'\r\n',b'\n')).hexdigest()
 manifest=json.loads((ROOT/'manifest.json').read_text(encoding='utf-8'))
 for name,digest in manifest['files'].items():
     path=(ROOT/name).resolve()

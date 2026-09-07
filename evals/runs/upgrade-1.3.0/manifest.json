@@ -10,7 +10,7 @@
     "protocol.json": "222c952a0ed864d55716db2f8a51d3b3db29558ce2086471df5430e6aaf6ed97",
     "reproduce.py": "f8152c67af66b40771327dc6b1ec80eced1e57258fb7fcc0899fce4214444fa2",
     "run.py": "35947899e71c85a00029bd3f5e48151ad2d3296b8182120e5c7350bec951eb2c",
-    "verify_public.py": "810cf743e4d47791a74f1116905c362391d9ccbf9b8a25d318e682d4c65eae78",
+    "verify_public.py": "b60caf3a74ad91ec93185733496ff6595a04cdc9e9225b8003d1af3011e5070a",
     "agent-project-r2/sums.py": "859cb6b0c69f0e06bb5ae054c70fb7148c1955b918465157dbc4882c71830125",
     "baseline/SPECIFICATION.md": "b8e0c5d9a755ae1069203eff67ae5803bc95bfcbadba0d8c595f53228fb21952",
     "briefing/dialogue.json": "0dfe67bb15eb1e37fbd55550fa535e5db7b3bf31835bf4e298c4920234b7353f",
@@ -246,7 +246,7 @@
     "executions/08-limits/answer.request.txt": "7346cc1ef29b8189a8ddd965e7082e56ebbe78f3d8240bfd3f9a448e25a28639",
     "executions/08-limits/answer.txt": "36476ed8012d549916b5ae77350188f6924f71df0cf07c10b9425270b46b43b7",
     "candidate-r2/prompt-improver/SKILL.md": "21f6166b16208d466a239553d92a04f44043bfcb992e14093e789ef812b64d09",
-    "candidate-r2/prompt-improver/agents/openai.yaml": "8415a15b2f6432229a18970a5f932976cd126098f4e03aa69e2eefbff0d3439c",
+    "candidate-r2/prompt-improver/agents/openai.yaml": "e2d7f2e73db0d08f2af56ec0fe2ea32b7ee378f3cbc8507cace77cdcd1256849",
     "candidate-r2/prompt-improver/references/debugging.md": "6fe103ece521ca25ca24feb8cae2f321d1d4e3ff5af10c453c3c7fcad340eab3",
     "candidate-r2/prompt-improver/references/editing.md": "976e05cd0b9577bf1515903e5ae45bf61315591a4bcc0038a91e00dcf5c1809e",
     "candidate-r2/prompt-improver/references/evidence.md": "b6f2656f3a68c2fd4c6b411c83ed71ce736edc50a99de7c9889c8cb15b373203",
@@ -262,7 +262,7 @@
     "candidate-r2/prompt-improver/references/domains/general.md": "7913304b538507a1f2aab5d7aeb05a715b57bb99895f2985d15494b3ddd1be1f",
     "candidate-r2/prompt-improver/references/domains/software.md": "42d3d8a616b44a67dfb4a46213ec7c262c67b8d5a1d98729de3e81ddff0cd212",
     "candidate/prompt-improver/SKILL.md": "2a754d331ba2c71f183f1fa7052e2929f6cbf8452ad5dc2080c2b3da1d684d20",
-    "candidate/prompt-improver/agents/openai.yaml": "8415a15b2f6432229a18970a5f932976cd126098f4e03aa69e2eefbff0d3439c",
+    "candidate/prompt-improver/agents/openai.yaml": "e2d7f2e73db0d08f2af56ec0fe2ea32b7ee378f3cbc8507cace77cdcd1256849",
     "candidate/prompt-improver/references/debugging.md": "6fe103ece521ca25ca24feb8cae2f321d1d4e3ff5af10c453c3c7fcad340eab3",
     "candidate/prompt-improver/references/editing.md": "976e05cd0b9577bf1515903e5ae45bf61315591a4bcc0038a91e00dcf5c1809e",
     "candidate/prompt-improver/references/evidence.md": "b6f2656f3a68c2fd4c6b411c83ed71ce736edc50a99de7c9889c8cb15b373203",
@@ -278,7 +278,7 @@
     "candidate/prompt-improver/references/domains/general.md": "7913304b538507a1f2aab5d7aeb05a715b57bb99895f2985d15494b3ddd1be1f",
     "candidate/prompt-improver/references/domains/software.md": "42d3d8a616b44a67dfb4a46213ec7c262c67b8d5a1d98729de3e81ddff0cd212",
     "baseline/prompt-improver/SKILL.md": "2c41eb1d92b6c7ada44894a5adb077e903808e462c9384fa35da928348c5d020",
-    "baseline/prompt-improver/agents/openai.yaml": "8415a15b2f6432229a18970a5f932976cd126098f4e03aa69e2eefbff0d3439c",
+    "baseline/prompt-improver/agents/openai.yaml": "e2d7f2e73db0d08f2af56ec0fe2ea32b7ee378f3cbc8507cace77cdcd1256849",
     "baseline/prompt-improver/references/debugging.md": "6fe103ece521ca25ca24feb8cae2f321d1d4e3ff5af10c453c3c7fcad340eab3",
     "baseline/prompt-improver/references/evidence.md": "c3a2eee400d3dd3d94c5ce6e9806423447e921c3c7c19eff78c4fbe5db0fa5af",
     "baseline/prompt-improver/references/examples.md": "6477f43075163b1ed319e99896e637350f7c01d3a28d5c87e814aed1b63370d2",
@@ -292,5 +292,6 @@
     "baseline/prompt-improver/references/domains/software.md": "42d3d8a616b44a67dfb4a46213ec7c262c67b8d5a1d98729de3e81ddff0cd212",
     "agent-project-r2/tests/test_sums.py": "d2e1347adcad67d06e4ff58bc8b8e044a84eb918848df97cf0c8c1320988c010"
   },
-  "redaction": "The absolute experiment root in text is replaced by {RUN_ROOT}, including file links in the agent answer. Shell commands are reduced to referenced skill paths. Private reasoning logs are excluded. Other model answer content is unchanged; original and public hashes are retained."
+  "redaction": "The absolute experiment root in text is replaced by {RUN_ROOT}, including file links in the agent answer. Shell commands are reduced to referenced skill paths. Private reasoning logs are excluded. Other model answer content is unchanged; original and public hashes are retained.",
+  "hash_encoding": "UTF-8 bytes with CRLF normalized to LF for public text files; original model hashes remain unmodified in metadata."
 }
